@@ -104,8 +104,9 @@ class Planner():
 			openSet.sort(key=lambda x: x.fScore)
 			c = openSet[0].id
 
-			# get node in openSet having the lowest fScore value
+			# check if current node is the goal
 			if c == goal:
+				# get optimal path
 				self._reconstruct_path(self.nodes[c])
 				return
 
