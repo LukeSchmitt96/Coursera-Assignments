@@ -9,8 +9,8 @@ if __name__ == "__main__":
 
     # parse command line args
     parser = argparse.ArgumentParser()
-    parser.add_argument("--path_to_data", default="../results/")
-    parser.add_argument("--path_to_output", default="../results/")
+    parser.add_argument("--path_to_data", default="../data/")
+    parser.add_argument("--path_to_output", default="../data/")
     parser.add_argument("--start_node", default='1')
     parser.add_argument("--goal_node", default='12')
     args = parser.parse_args()

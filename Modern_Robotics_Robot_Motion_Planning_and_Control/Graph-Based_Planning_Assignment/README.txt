@@ -7,10 +7,10 @@ Directory layout:
 	code/planner.py	        - contains Planner class that contains A* algorithm and methods for loading/saving data
 	code/node.py	        - contains Node class that contains data describing nodes in a graph network
 
-    results/edges.csv       - edge data in format [ID1, ID2, cost]
-    results/nodes.csv       - node data in format [ID, x, y, heuristic-cost-to-go]
-    results/obstacles.csv   - obstacle data in format [x, y, diameter]
-    results/path.csv        - path data in format [node_1, node_2, ..., node_goal]
+    data/edges.csv          - edge data in format [ID1, ID2, cost]
+    data/nodes.csv          - node data in format [ID, x, y, heuristic-cost-to-go]
+    data/obstacles.csv      - obstacle data in format [x, y, diameter]
+    data/path.csv           - path data in format [node_1, node_2, ..., node_goal]
 
     a-star-derived-path-from-1-to-12.png    - screenshot of motion planning sim showing optimal path from 1 to 12
     Scene5_motion_planning.ttt              - motion planning scene
