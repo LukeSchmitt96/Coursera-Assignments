@@ -25,7 +25,7 @@ Can use command line args to specify other start/goal nodes or paths to data/out
         
 args:
 
-	path_to_data       [relative path ending in /]
-	path_to_output     [relative path ending in /]
-	visualize          [if flagged, shows a visualion]
-	methods            [RRT or PRM (not implemented)]
+	-path_to_data       [relative path ending in /]
+	-path_to_output     [relative path ending in /]
+	-visualize          [if flagged, shows a visualion]
+	-methods            [RRT or PRM (not implemented)]
