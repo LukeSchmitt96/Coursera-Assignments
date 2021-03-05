@@ -1,4 +1,4 @@
-## Submission for Coursera's Modern Robotics Course's A* Graph Search Project
+# Submission for Coursera's Modern Robotics Course's A* Graph Search Project
 
 
 ## Directory layout:
@@ -27,3 +27,7 @@ args:
 	--goal_node         [node id]
 	--path_to_data      [relative path ending in /]
 	--path_to_output    [relative path ending in /]
+
+## Results
+### A*
+![astar_reaults](a-star-derived-path-from-1-to-12.png)
