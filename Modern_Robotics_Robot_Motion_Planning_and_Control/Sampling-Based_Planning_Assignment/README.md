@@ -31,5 +31,5 @@ args:
 	-methods            [RRT or PRM (not implemented)]
 
 ## Results
-RRT
+### RRT
 ![rrt_results](rrt_output.png)
