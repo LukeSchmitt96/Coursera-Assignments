@@ -1,4 +1,4 @@
-## Submission for Coursera's Modern Robotics Course's Sampling-Based Planning Project
+# Submission for Coursera's Modern Robotics Course's Sampling-Based Planning Project
 
 
 ## Directory layout:
@@ -29,3 +29,7 @@ args:
 	-path_to_output     [relative path ending in /]
 	-visualize          [if flagged, shows a visualion]
 	-methods            [RRT or PRM (not implemented)]
+
+## Results
+RRT
+![rrt_results](rrt_output.png)
